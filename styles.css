@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background: #ccc;
+    width: 350px;
+    height: 100px;
+    margin: 200px auto;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    background: #e66357;
+    width: 140px;
+    padding: 2px;
+    font-size: 0.9rem;
+    margin: 0 auto;
+    text-align: center;
+    top: -10px;
+    /* 175px - half of width of main */
+    left: 105px; 
+    color: #fff;
+    font-weight: bolder;
+}
+
+.inside_box {
+    text-align: center;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span {
+    font-size: 2rem;
+    font-weight: bolder;
+}
